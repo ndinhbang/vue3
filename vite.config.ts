@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     manifest: true,
   },
-  plugins: [vue(), sri({ augmentManifest: true })],
+  plugins: [vue(), sri({ augmentManifest: true, hashAlgorithms: ['sha256'] })],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
