@@ -1,0 +1,50 @@
+# GZIP compression for text files: HTML, CSS, JS, Text, XML, fonts
+# NOTE: must enable both mod_filter.so & mod_deflate.so
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE image/x-icon
+    # Compress Fonts
+#    AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+<IfModule mod_mime.c>
+   # Manifest file
+   AddType application/manifest+json webmanifest
+</IfModule>
+# Allow Access Control Headers
+<IfModule mod_headers.c>
+    SetEnvIfNoCase Origin "https?://((www\.)?[a-z0-9]+\.)?(laravel10\.test|localhost)(:\d+)?$" AccessControlAllowOrigin=$0
+    Header always set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+    Header always set Access-Control-Allow-Methods "GET,POST,PUT,DELETE,OPTIONS"
+    Header always set Access-Control-Allow-Headers "content-type,x-requested-with,authorization,x-socket-id,content-disposition,content-length,x-content-transfer-id,Accept-Encoding"
+    Header always set Access-Control-Expose-Headers "content-disposition,content-length,x-content-transfer-id,Content-Encoding,Transfer-Encoding"
+    Header always set Access-Control-Max-Age 86400
+    Header always set Referrer-Policy "strict-origin"
+    # Avoid click-jacking attacks (DENY/SAMEORIGIN)
+    Header always set X-Frame-Options "DENY"
+    # Browser Sniffing Protection
+    Header always set X-Content-Type-Options "nosniff"
+    # XSS Protection
+    Header always set Content-Security-Policy "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; font-src 'self'; manifest-src 'self'; form-action 'self'; base-uri 'self'; navigate-to 'self'; upgrade-insecure-requests"
+    # NOTE: production only, read this carefully before process https://hstspreload.org/#submission-requirements
+#        Header set Strict-Transport-Security "max-age=300; includeSubDomains;"
+
+    # Header for service worker file
+    <Files "sw.js">
+        Header always set Service-Worker-Allowed "/"
+    </Files>
+
+    # Cache files of the following types for 1 month
+#        <FilesMatch "\.(ico|pdf|webp|jpg|jpeg|png|gif|js|css|svg|ttf|otf|woff2|woff)$">
+#            Header always set Cache-Control "max-age=2592000, public"
+#            Header merge Vary Accept-Encoding
+#        </FilesMatch>
+
+#    Header merge Vary Origin
+#    Header set Access-Control-Allow-Credentials true
+</IfModule>
