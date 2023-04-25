@@ -1,35 +1,46 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.app-layout {
+    min-height: 100vh;
+}
+.app-header {
+
+}
+.app-sidebar {
+    overflow: auto;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+/*.app-sidebar > .ant-layout-sider-children {*/
+/*    padding-bottom: 48px;*/
+/*}*/
+.app-pages {
+    margin-left: 200px;
+}
+.app-pages.collapsed {
+    margin-left: 80px;
 }
