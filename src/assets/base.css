@@ -60,4 +60,7 @@
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
