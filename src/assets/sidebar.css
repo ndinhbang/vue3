@@ -6,6 +6,7 @@
     top: 0;
     bottom: 0;
     z-index: 1;
+    box-shadow: rgb(125, 108, 108) 4px 0 3px -1px;
 }
 .app-sidebar-inner {
     height: 100vh;
@@ -22,3 +23,6 @@
     overflow-x: hidden ;
     overflow-y: auto;
 }
+/*.app-sidebar-menu-wrap::-webkit-scrollbar {*/
+/*    width: 0;*/
+/*}*/
