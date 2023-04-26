@@ -1,6 +1,5 @@
 <template>
   <a-layout-header class="app-header">
-    <div class="logo" />
     <HeaderMenu />
   </a-layout-header>
 </template>

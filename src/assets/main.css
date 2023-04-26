@@ -1,46 +1,15 @@
 @import './base.css';
-
-/* custom scrollbar */
-::-webkit-scrollbar {
-    width: 20px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #d6dee1;
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #a8bbbf;
-}
+@import "./scrollbar.css";
+@import "./sidebar.css";
+@import "./header.css";
 
 .app-layout {
     min-height: 100vh;
 }
-.app-header {
-
-}
-.app-sidebar {
-    overflow: auto;
-    height: 100vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
-/*.app-sidebar > .ant-layout-sider-children {*/
-/*    padding-bottom: 48px;*/
-/*}*/
 .app-pages {
     margin-left: 200px;
 }
 .app-pages.collapsed {
     margin-left: 80px;
 }
+

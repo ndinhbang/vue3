@@ -57,4 +57,7 @@
   margin: 0;
   position: relative;
   font-weight: normal;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

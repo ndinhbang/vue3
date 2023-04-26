@@ -8,8 +8,12 @@
       <DoubleLeftOutlined v-if="!collapsed"/>
       <DoubleRightOutlined v-else/>
     </template>
-    <div class="logo"/>
-    <SidebarMenu/>
+    <div class="app-sidebar-inner">
+      <div class="logo"/>
+      <div class="app-sidebar-menu-wrap">
+        <SidebarMenu/>
+      </div>
+    </div>
   </a-layout-sider>
 </template>
 
@@ -26,9 +30,5 @@ const collapsed = ref<boolean>(false);
 </script>
 
 <style scoped>
-.logo {
-  height: 32px;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 16px;
-}
+
 </style>
