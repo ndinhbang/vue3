@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Sidebar from "@/components/app/Sidebar.vue";
 import Header from "@/components/app/Header.vue";
+import {ref} from "vue";
+
+const collapsed = ref<boolean>(false);
 </script>
 
 <template>

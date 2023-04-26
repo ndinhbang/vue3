@@ -25,6 +25,15 @@ import {
   DoubleRightOutlined
 } from '@ant-design/icons-vue';
 
+interface Props {
+  opened?: boolean
+}
+
+//@see: https://vuejs.org/guide/typescript/composition-api.html#typing-component-props
+const props = withDefaults(defineProps<Props>(), {
+  opened: false,
+})
+
 const collapsible = ref<boolean>(true);
 const collapsed = ref<boolean>(false);
 </script>

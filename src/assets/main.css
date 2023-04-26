@@ -8,6 +8,7 @@
 }
 .app-pages {
     margin-left: 200px;
+    transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .app-pages.collapsed {
     margin-left: 80px;
