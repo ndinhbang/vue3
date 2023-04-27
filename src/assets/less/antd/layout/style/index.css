@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-layout {
+.b-layout {
   display: flex;
   flex: auto;
   flex-direction: column;
@@ -10,61 +10,61 @@
   min-height: 0;
   background: #f0f2f5;
 }
-.ant-layout,
-.ant-layout * {
+.b-layout,
+.b-layout * {
   box-sizing: border-box;
 }
-.ant-layout.ant-layout-has-sider {
+.b-layout.b-layout-has-sider {
   flex-direction: row;
 }
-.ant-layout.ant-layout-has-sider > .ant-layout,
-.ant-layout.ant-layout-has-sider > .ant-layout-content {
+.b-layout.b-layout-has-sider > .b-layout,
+.b-layout.b-layout-has-sider > .b-layout-content {
   width: 0;
 }
-.ant-layout-header,
-.ant-layout-footer {
+.b-layout-header,
+.b-layout-footer {
   flex: 0 0 auto;
 }
-.ant-layout-header {
+.b-layout-header {
   height: 64px;
   padding: 0 50px;
   color: rgba(0, 0, 0, 0.85);
   line-height: 64px;
   background: #001529;
 }
-.ant-layout-footer {
+.b-layout-footer {
   padding: 24px 50px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
   background: #f0f2f5;
 }
-.ant-layout-content {
+.b-layout-content {
   flex: auto;
   /* fix firefox can't set height smaller than content on flex item */
   min-height: 0;
 }
-.ant-layout-sider {
+.b-layout-sider {
   position: relative;
   /* fix firefox can't set width smaller than content on flex item */
   min-width: 0;
   background: #001529;
   transition: all 0.2s;
 }
-.ant-layout-sider-children {
+.b-layout-sider-children {
   height: 100%;
   margin-top: -0.1px;
   padding-top: 0.1px;
 }
-.ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+.b-layout-sider-children .b-menu.b-menu-inline-collapsed {
   width: auto;
 }
-.ant-layout-sider-has-trigger {
+.b-layout-sider-has-trigger {
   padding-bottom: 48px;
 }
-.ant-layout-sider-right {
+.b-layout-sider-right {
   order: 1;
 }
-.ant-layout-sider-trigger {
+.b-layout-sider-trigger {
   position: fixed;
   bottom: 0;
   z-index: 1;
@@ -76,10 +76,10 @@
   cursor: pointer;
   transition: all 0.2s;
 }
-.ant-layout-sider-zero-width > * {
+.b-layout-sider-zero-width > * {
   overflow: hidden;
 }
-.ant-layout-sider-zero-width-trigger {
+.b-layout-sider-zero-width-trigger {
   position: absolute;
   top: 64px;
   right: -36px;
@@ -95,7 +95,7 @@
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.ant-layout-sider-zero-width-trigger::after {
+.b-layout-sider-zero-width-trigger::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -105,24 +105,24 @@
   transition: all 0.3s;
   content: '';
 }
-.ant-layout-sider-zero-width-trigger:hover::after {
+.b-layout-sider-zero-width-trigger:hover::after {
   background: rgba(255, 255, 255, 0.1);
 }
-.ant-layout-sider-zero-width-trigger-right {
+.b-layout-sider-zero-width-trigger-right {
   left: -36px;
   border-radius: 2px 0 0 2px;
 }
-.ant-layout-sider-light {
+.b-layout-sider-light {
   background: #fff;
 }
-.ant-layout-sider-light .ant-layout-sider-trigger {
+.b-layout-sider-light .b-layout-sider-trigger {
   color: rgba(0, 0, 0, 0.85);
   background: #fff;
 }
-.ant-layout-sider-light .ant-layout-sider-zero-width-trigger {
+.b-layout-sider-light .b-layout-sider-zero-width-trigger {
   color: rgba(0, 0, 0, 0.85);
   background: #fff;
 }
-.ant-layout-rtl {
+.b-layout-rtl {
   direction: rtl;
 }

@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-card {
+.b-card {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,21 +16,21 @@
   background: #fff;
   border-radius: 2px;
 }
-.ant-card-rtl {
+.b-card-rtl {
   direction: rtl;
 }
-.ant-card-hoverable {
+.b-card-hoverable {
   cursor: pointer;
   transition: box-shadow 0.3s, border-color 0.3s;
 }
-.ant-card-hoverable:hover {
+.b-card-hoverable:hover {
   border-color: transparent;
   box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
 }
-.ant-card-bordered {
+.b-card-bordered {
   border: 1px solid #f0f0f0;
 }
-.ant-card-head {
+.b-card-head {
   min-height: 48px;
   margin-bottom: -1px;
   padding: 0 24px;
@@ -41,20 +41,20 @@
   border-bottom: 1px solid #f0f0f0;
   border-radius: 2px 2px 0 0;
 }
-.ant-card-head::before {
+.b-card-head::before {
   display: table;
   content: '';
 }
-.ant-card-head::after {
+.b-card-head::after {
   display: table;
   clear: both;
   content: '';
 }
-.ant-card-head-wrapper {
+.b-card-head-wrapper {
   display: flex;
   align-items: center;
 }
-.ant-card-head-title {
+.b-card-head-title {
   display: inline-block;
   flex: 1;
   padding: 16px 0;
@@ -62,23 +62,23 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.ant-card-head-title > .ant-typography,
-.ant-card-head-title > .ant-typography-edit-content {
+.b-card-head-title > .b-typography,
+.b-card-head-title > .b-typography-edit-content {
   left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-.ant-card-head .ant-tabs-top {
+.b-card-head .b-tabs-top {
   clear: both;
   margin-bottom: -17px;
   color: rgba(0, 0, 0, 0.85);
   font-weight: normal;
   font-size: 14px;
 }
-.ant-card-head .ant-tabs-top-bar {
+.b-card-head .b-tabs-top-bar {
   border-bottom: 1px solid #f0f0f0;
 }
-.ant-card-extra {
+.b-card-extra {
   float: right;
   margin-left: auto;
   padding: 16px 0;
@@ -86,27 +86,27 @@
   font-weight: normal;
   font-size: 14px;
 }
-.ant-card-rtl .ant-card-extra {
+.b-card-rtl .b-card-extra {
   margin-right: auto;
   margin-left: 0;
 }
-.ant-card-body {
+.b-card-body {
   padding: 24px;
 }
-.ant-card-body::before {
+.b-card-body::before {
   display: table;
   content: '';
 }
-.ant-card-body::after {
+.b-card-body::after {
   display: table;
   clear: both;
   content: '';
 }
-.ant-card-contain-grid:not(.ant-card-loading) .ant-card-body {
+.b-card-contain-grid:not(.b-card-loading) .b-card-body {
   margin: -1px 0 0 -1px;
   padding: 0;
 }
-.ant-card-grid {
+.b-card-grid {
   float: left;
   width: 33.33%;
   padding: 24px;
@@ -115,59 +115,59 @@
   box-shadow: 1px 0 0 0 #f0f0f0, 0 1px 0 0 #f0f0f0, 1px 1px 0 0 #f0f0f0, 1px 0 0 0 #f0f0f0 inset, 0 1px 0 0 #f0f0f0 inset;
   transition: all 0.3s;
 }
-.ant-card-rtl .ant-card-grid {
+.b-card-rtl .b-card-grid {
   float: right;
 }
-.ant-card-grid-hoverable:hover {
+.b-card-grid-hoverable:hover {
   position: relative;
   z-index: 1;
   box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
 }
-.ant-card-contain-tabs > .ant-card-head .ant-card-head-title {
+.b-card-contain-tabs > .b-card-head .b-card-head-title {
   min-height: 32px;
   padding-bottom: 0;
 }
-.ant-card-contain-tabs > .ant-card-head .ant-card-extra {
+.b-card-contain-tabs > .b-card-head .b-card-extra {
   padding-bottom: 0;
 }
-.ant-card-bordered .ant-card-cover {
+.b-card-bordered .b-card-cover {
   margin-top: -1px;
   margin-right: -1px;
   margin-left: -1px;
 }
-.ant-card-cover > * {
+.b-card-cover > * {
   display: block;
   width: 100%;
 }
-.ant-card-cover img {
+.b-card-cover img {
   border-radius: 2px 2px 0 0;
 }
-.ant-card-actions {
+.b-card-actions {
   margin: 0;
   padding: 0;
   list-style: none;
   background: #fff;
   border-top: 1px solid #f0f0f0;
 }
-.ant-card-actions::before {
+.b-card-actions::before {
   display: table;
   content: '';
 }
-.ant-card-actions::after {
+.b-card-actions::after {
   display: table;
   clear: both;
   content: '';
 }
-.ant-card-actions > li {
+.b-card-actions > li {
   float: left;
   margin: 12px 0;
   color: rgba(0, 0, 0, 0.45);
   text-align: center;
 }
-.ant-card-rtl .ant-card-actions > li {
+.b-card-rtl .b-card-actions > li {
   float: right;
 }
-.ant-card-actions > li > span {
+.b-card-actions > li > span {
   position: relative;
   display: block;
   min-width: 32px;
@@ -175,75 +175,75 @@
   line-height: 1.5715;
   cursor: pointer;
 }
-.ant-card-actions > li > span:hover {
+.b-card-actions > li > span:hover {
   color: #1890ff;
   transition: color 0.3s;
 }
-.ant-card-actions > li > span a:not(.ant-btn),
-.ant-card-actions > li > span > .anticon {
+.b-card-actions > li > span a:not(.b-btn),
+.b-card-actions > li > span > .anticon {
   display: inline-block;
   width: 100%;
   color: rgba(0, 0, 0, 0.45);
   line-height: 22px;
   transition: color 0.3s;
 }
-.ant-card-actions > li > span a:not(.ant-btn):hover,
-.ant-card-actions > li > span > .anticon:hover {
+.b-card-actions > li > span a:not(.b-btn):hover,
+.b-card-actions > li > span > .anticon:hover {
   color: #1890ff;
 }
-.ant-card-actions > li > span > .anticon {
+.b-card-actions > li > span > .anticon {
   font-size: 16px;
   line-height: 22px;
 }
-.ant-card-actions > li:not(:last-child) {
+.b-card-actions > li:not(:last-child) {
   border-right: 1px solid #f0f0f0;
 }
-.ant-card-rtl .ant-card-actions > li:not(:last-child) {
+.b-card-rtl .b-card-actions > li:not(:last-child) {
   border-right: none;
   border-left: 1px solid #f0f0f0;
 }
-.ant-card-type-inner .ant-card-head {
+.b-card-type-inner .b-card-head {
   padding: 0 24px;
   background: #fafafa;
 }
-.ant-card-type-inner .ant-card-head-title {
+.b-card-type-inner .b-card-head-title {
   padding: 12px 0;
   font-size: 14px;
 }
-.ant-card-type-inner .ant-card-body {
+.b-card-type-inner .b-card-body {
   padding: 16px 24px;
 }
-.ant-card-type-inner .ant-card-extra {
+.b-card-type-inner .b-card-extra {
   padding: 13.5px 0;
 }
-.ant-card-meta {
+.b-card-meta {
   margin: -4px 0;
 }
-.ant-card-meta::before {
+.b-card-meta::before {
   display: table;
   content: '';
 }
-.ant-card-meta::after {
+.b-card-meta::after {
   display: table;
   clear: both;
   content: '';
 }
-.ant-card-meta-avatar {
+.b-card-meta-avatar {
   float: left;
   padding-right: 16px;
 }
-.ant-card-rtl .ant-card-meta-avatar {
+.b-card-rtl .b-card-meta-avatar {
   float: right;
   padding-right: 0;
   padding-left: 16px;
 }
-.ant-card-meta-detail {
+.b-card-meta-detail {
   overflow: hidden;
 }
-.ant-card-meta-detail > div:not(:last-child) {
+.b-card-meta-detail > div:not(:last-child) {
   margin-bottom: 8px;
 }
-.ant-card-meta-title {
+.b-card-meta-title {
   overflow: hidden;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 500;
@@ -251,21 +251,21 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.ant-card-meta-description {
+.b-card-meta-description {
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-card-loading {
+.b-card-loading {
   overflow: hidden;
 }
-.ant-card-loading .ant-card-body {
+.b-card-loading .b-card-body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.ant-card-loading-content p {
+.b-card-loading-content p {
   margin: 0;
 }
-.ant-card-loading-block {
+.b-card-loading-block {
   height: 14px;
   margin: 4px 0;
   background: linear-gradient(90deg, rgba(207, 216, 220, 0.2), rgba(207, 216, 220, 0.4), rgba(207, 216, 220, 0.2));
@@ -282,18 +282,18 @@
     background-position: 100% 50%;
   }
 }
-.ant-card-small > .ant-card-head {
+.b-card-small > .b-card-head {
   min-height: 36px;
   padding: 0 12px;
   font-size: 14px;
 }
-.ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-head-title {
+.b-card-small > .b-card-head > .b-card-head-wrapper > .b-card-head-title {
   padding: 8px 0;
 }
-.ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+.b-card-small > .b-card-head > .b-card-head-wrapper > .b-card-extra {
   padding: 8px 0;
   font-size: 14px;
 }
-.ant-card-small > .ant-card-body {
+.b-card-small > .b-card-body {
   padding: 12px;
 }

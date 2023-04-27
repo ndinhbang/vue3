@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-message {
+.b-message {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,11 +19,11 @@
   width: 100%;
   pointer-events: none;
 }
-.ant-message-notice {
+.b-message-notice {
   padding: 8px;
   text-align: center;
 }
-.ant-message-notice-content {
+.b-message-notice-content {
   display: inline-block;
   padding: 10px 16px;
   background: #fff;
@@ -31,26 +31,26 @@
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
   pointer-events: all;
 }
-.ant-message-success .anticon {
+.b-message-success .anticon {
   color: #52c41a;
 }
-.ant-message-error .anticon {
+.b-message-error .anticon {
   color: #ff4d4f;
 }
-.ant-message-warning .anticon {
+.b-message-warning .anticon {
   color: #faad14;
 }
-.ant-message-info .anticon,
-.ant-message-loading .anticon {
+.b-message-info .anticon,
+.b-message-loading .anticon {
   color: #1890ff;
 }
-.ant-message .anticon {
+.b-message .anticon {
   position: relative;
   top: 1px;
   margin-right: 8px;
   font-size: 16px;
 }
-.ant-message-notice.ant-move-up-leave.ant-move-up-leave-active {
+.b-message-notice.b-move-up-leave.b-move-up-leave-active {
   animation-name: MessageMoveOut;
   animation-duration: 0.3s;
 }
@@ -66,13 +66,13 @@
     opacity: 0;
   }
 }
-.ant-message-rtl {
+.b-message-rtl {
   direction: rtl;
 }
-.ant-message-rtl span {
+.b-message-rtl span {
   direction: rtl;
 }
-.ant-message-rtl .anticon {
+.b-message-rtl .anticon {
   margin-right: 0;
   margin-left: 8px;
 }

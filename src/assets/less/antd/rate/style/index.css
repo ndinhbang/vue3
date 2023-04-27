@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-rate {
+.b-rate {
   box-sizing: border-box;
   color: rgba(0, 0, 0, 0.85);
   font-size: 14px;
@@ -18,47 +18,47 @@
   list-style: none;
   outline: none;
 }
-.ant-rate-disabled .ant-rate-star {
+.b-rate-disabled .b-rate-star {
   cursor: default;
 }
-.ant-rate-disabled .ant-rate-star:hover {
+.b-rate-disabled .b-rate-star:hover {
   transform: scale(1);
 }
-.ant-rate-star {
+.b-rate-star {
   position: relative;
   display: inline-block;
   color: inherit;
   cursor: pointer;
 }
-.ant-rate-star:not(:last-child) {
+.b-rate-star:not(:last-child) {
   margin-right: 8px;
 }
-.ant-rate-star > div {
+.b-rate-star > div {
   transition: all 0.3s, outline 0s;
 }
-.ant-rate-star > div:hover {
+.b-rate-star > div:hover {
   transform: scale(1.1);
 }
-.ant-rate-star > div:focus {
+.b-rate-star > div:focus {
   outline: 0;
 }
-.ant-rate-star > div:focus-visible {
+.b-rate-star > div:focus-visible {
   outline: 1px dashed #fadb14;
   transform: scale(1.1);
 }
-.ant-rate-star-first,
-.ant-rate-star-second {
+.b-rate-star-first,
+.b-rate-star-second {
   color: #f0f0f0;
   transition: all 0.3s;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.ant-rate-star-first .anticon,
-.ant-rate-star-second .anticon {
+.b-rate-star-first .anticon,
+.b-rate-star-second .anticon {
   vertical-align: middle;
 }
-.ant-rate-star-first {
+.b-rate-star-first {
   position: absolute;
   top: 0;
   left: 0;
@@ -67,27 +67,27 @@
   overflow: hidden;
   opacity: 0;
 }
-.ant-rate-star-half .ant-rate-star-first,
-.ant-rate-star-half .ant-rate-star-second {
+.b-rate-star-half .b-rate-star-first,
+.b-rate-star-half .b-rate-star-second {
   opacity: 1;
 }
-.ant-rate-star-half .ant-rate-star-first,
-.ant-rate-star-full .ant-rate-star-second {
+.b-rate-star-half .b-rate-star-first,
+.b-rate-star-full .b-rate-star-second {
   color: inherit;
 }
-.ant-rate-text {
+.b-rate-text {
   display: inline-block;
   margin: 0 8px;
   font-size: 14px;
 }
-.ant-rate-rtl {
+.b-rate-rtl {
   direction: rtl;
 }
-.ant-rate-rtl .ant-rate-star:not(:last-child) {
+.b-rate-rtl .b-rate-star:not(:last-child) {
   margin-right: 0;
   margin-left: 8px;
 }
-.ant-rate-rtl .ant-rate-star-first {
+.b-rate-rtl .b-rate-star-first {
   right: 0;
   left: auto;
 }

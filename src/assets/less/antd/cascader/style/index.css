@@ -12,7 +12,7 @@
     opacity: 0;
   }
 }
-.ant-cascader-checkbox {
+.b-cascader-checkbox {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -29,12 +29,12 @@
   outline: none;
   cursor: pointer;
 }
-.ant-cascader-checkbox-wrapper:hover .ant-cascader-checkbox-inner,
-.ant-cascader-checkbox:hover .ant-cascader-checkbox-inner,
-.ant-cascader-checkbox-input:focus + .ant-cascader-checkbox-inner {
+.b-cascader-checkbox-wrapper:hover .b-cascader-checkbox-inner,
+.b-cascader-checkbox:hover .b-cascader-checkbox-inner,
+.b-cascader-checkbox-input:focus + .b-cascader-checkbox-inner {
   border-color: #1890ff;
 }
-.ant-cascader-checkbox-checked::after {
+.b-cascader-checkbox-checked::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,11 +47,11 @@
   animation-fill-mode: backwards;
   content: '';
 }
-.ant-cascader-checkbox:hover::after,
-.ant-cascader-checkbox-wrapper:hover .ant-cascader-checkbox::after {
+.b-cascader-checkbox:hover::after,
+.b-cascader-checkbox-wrapper:hover .b-cascader-checkbox::after {
   visibility: visible;
 }
-.ant-cascader-checkbox-inner {
+.b-cascader-checkbox-inner {
   position: relative;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@
   border-collapse: separate;
   transition: all 0.3s;
 }
-.ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-inner::after {
   position: absolute;
   top: 50%;
   left: 21.5%;
@@ -80,7 +80,7 @@
   transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
   content: ' ';
 }
-.ant-cascader-checkbox-input {
+.b-cascader-checkbox-input {
   position: absolute;
   top: 0;
   right: 0;
@@ -92,7 +92,7 @@
   cursor: pointer;
   opacity: 0;
 }
-.ant-cascader-checkbox-checked .ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-checked .b-cascader-checkbox-inner::after {
   position: absolute;
   display: table;
   border: 2px solid #fff;
@@ -103,39 +103,39 @@
   transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s;
   content: ' ';
 }
-.ant-cascader-checkbox-checked .ant-cascader-checkbox-inner {
+.b-cascader-checkbox-checked .b-cascader-checkbox-inner {
   background-color: #1890ff;
   border-color: #1890ff;
 }
-.ant-cascader-checkbox-disabled {
+.b-cascader-checkbox-disabled {
   cursor: not-allowed;
 }
-.ant-cascader-checkbox-disabled.ant-cascader-checkbox-checked .ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-disabled.b-cascader-checkbox-checked .b-cascader-checkbox-inner::after {
   border-color: rgba(0, 0, 0, 0.25);
   animation-name: none;
 }
-.ant-cascader-checkbox-disabled .ant-cascader-checkbox-input {
+.b-cascader-checkbox-disabled .b-cascader-checkbox-input {
   cursor: not-allowed;
   pointer-events: none;
 }
-.ant-cascader-checkbox-disabled .ant-cascader-checkbox-inner {
+.b-cascader-checkbox-disabled .b-cascader-checkbox-inner {
   background-color: #f5f5f5;
   border-color: #d9d9d9 !important;
 }
-.ant-cascader-checkbox-disabled .ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-disabled .b-cascader-checkbox-inner::after {
   border-color: #f5f5f5;
   border-collapse: separate;
   animation-name: none;
 }
-.ant-cascader-checkbox-disabled + span {
+.b-cascader-checkbox-disabled + span {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
 }
-.ant-cascader-checkbox-disabled:hover::after,
-.ant-cascader-checkbox-wrapper:hover .ant-cascader-checkbox-disabled::after {
+.b-cascader-checkbox-disabled:hover::after,
+.b-cascader-checkbox-wrapper:hover .b-cascader-checkbox-disabled::after {
   visibility: hidden;
 }
-.ant-cascader-checkbox-wrapper {
+.b-cascader-checkbox-wrapper {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -150,23 +150,23 @@
   line-height: unset;
   cursor: pointer;
 }
-.ant-cascader-checkbox-wrapper::after {
+.b-cascader-checkbox-wrapper::after {
   display: inline-block;
   width: 0;
   overflow: hidden;
   content: '\a0';
 }
-.ant-cascader-checkbox-wrapper.ant-cascader-checkbox-wrapper-disabled {
+.b-cascader-checkbox-wrapper.b-cascader-checkbox-wrapper-disabled {
   cursor: not-allowed;
 }
-.ant-cascader-checkbox-wrapper + .ant-cascader-checkbox-wrapper {
+.b-cascader-checkbox-wrapper + .b-cascader-checkbox-wrapper {
   margin-left: 8px;
 }
-.ant-cascader-checkbox + span {
+.b-cascader-checkbox + span {
   padding-right: 8px;
   padding-left: 8px;
 }
-.ant-cascader-checkbox-group {
+.b-cascader-checkbox-group {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -178,20 +178,20 @@
   font-feature-settings: 'tnum';
   display: inline-block;
 }
-.ant-cascader-checkbox-group-item {
+.b-cascader-checkbox-group-item {
   margin-right: 8px;
 }
-.ant-cascader-checkbox-group-item:last-child {
+.b-cascader-checkbox-group-item:last-child {
   margin-right: 0;
 }
-.ant-cascader-checkbox-group-item + .ant-cascader-checkbox-group-item {
+.b-cascader-checkbox-group-item + .b-cascader-checkbox-group-item {
   margin-left: 0;
 }
-.ant-cascader-checkbox-indeterminate .ant-cascader-checkbox-inner {
+.b-cascader-checkbox-indeterminate .b-cascader-checkbox-inner {
   background-color: #fff;
   border-color: #d9d9d9;
 }
-.ant-cascader-checkbox-indeterminate .ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-indeterminate .b-cascader-checkbox-inner::after {
   top: 50%;
   left: 50%;
   width: 8px;
@@ -202,27 +202,27 @@
   opacity: 1;
   content: ' ';
 }
-.ant-cascader-checkbox-indeterminate.ant-cascader-checkbox-disabled .ant-cascader-checkbox-inner::after {
+.b-cascader-checkbox-indeterminate.b-cascader-checkbox-disabled .b-cascader-checkbox-inner::after {
   background-color: rgba(0, 0, 0, 0.25);
   border-color: rgba(0, 0, 0, 0.25);
 }
-.ant-cascader {
+.b-cascader {
   width: 184px;
 }
-.ant-cascader-checkbox {
+.b-cascader-checkbox {
   top: 0;
   margin-right: 8px;
 }
-.ant-cascader-menus {
+.b-cascader-menus {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
 }
-.ant-cascader-menus.ant-cascader-menu-empty .ant-cascader-menu {
+.b-cascader-menus.b-cascader-menu-empty .b-cascader-menu {
   width: 100%;
   height: auto;
 }
-.ant-cascader-menu {
+.b-cascader-menu {
   min-width: 111px;
   height: 180px;
   margin: 0;
@@ -234,7 +234,7 @@
   border-right: 1px solid #f0f0f0;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-.ant-cascader-menu-item {
+.b-cascader-menu-item {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -246,48 +246,48 @@
   cursor: pointer;
   transition: all 0.3s;
 }
-.ant-cascader-menu-item:hover {
+.b-cascader-menu-item:hover {
   background: #f5f5f5;
 }
-.ant-cascader-menu-item-disabled {
+.b-cascader-menu-item-disabled {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
 }
-.ant-cascader-menu-item-disabled:hover {
+.b-cascader-menu-item-disabled:hover {
   background: transparent;
 }
-.ant-cascader-menu-empty .ant-cascader-menu-item {
+.b-cascader-menu-empty .b-cascader-menu-item {
   color: rgba(0, 0, 0, 0.25);
   cursor: default;
   pointer-events: none;
 }
-.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
-.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover {
+.b-cascader-menu-item-active:not(.b-cascader-menu-item-disabled),
+.b-cascader-menu-item-active:not(.b-cascader-menu-item-disabled):hover {
   font-weight: 600;
   background-color: #e6f7ff;
 }
-.ant-cascader-menu-item-content {
+.b-cascader-menu-item-content {
   flex: auto;
 }
-.ant-cascader-menu-item-expand .ant-cascader-menu-item-expand-icon,
-.ant-cascader-menu-item-loading-icon {
+.b-cascader-menu-item-expand .b-cascader-menu-item-expand-icon,
+.b-cascader-menu-item-loading-icon {
   margin-left: 4px;
   color: rgba(0, 0, 0, 0.45);
   font-size: 10px;
 }
-.ant-cascader-menu-item-disabled.ant-cascader-menu-item-expand .ant-cascader-menu-item-expand-icon,
-.ant-cascader-menu-item-disabled.ant-cascader-menu-item-loading-icon {
+.b-cascader-menu-item-disabled.b-cascader-menu-item-expand .b-cascader-menu-item-expand-icon,
+.b-cascader-menu-item-disabled.b-cascader-menu-item-loading-icon {
   color: rgba(0, 0, 0, 0.25);
 }
-.ant-cascader-menu-item-keyword {
+.b-cascader-menu-item-keyword {
   color: #ff4d4f;
 }
-.ant-cascader-rtl .ant-cascader-menu-item-expand-icon,
-.ant-cascader-rtl .ant-cascader-menu-item-loading-icon {
+.b-cascader-rtl .b-cascader-menu-item-expand-icon,
+.b-cascader-rtl .b-cascader-menu-item-loading-icon {
   margin-right: 4px;
   margin-left: 0;
 }
-.ant-cascader-rtl .ant-cascader-checkbox {
+.b-cascader-rtl .b-cascader-checkbox {
   top: 0;
   margin-right: 0;
   margin-left: 8px;

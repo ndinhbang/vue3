@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-back-top {
+.b-back-top {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,15 +20,15 @@
   height: 40px;
   cursor: pointer;
 }
-.ant-back-top:empty {
+.b-back-top:empty {
   display: none;
 }
-.ant-back-top-rtl {
+.b-back-top-rtl {
   right: auto;
   left: 100px;
   direction: rtl;
 }
-.ant-back-top-content {
+.b-back-top-content {
   width: 40px;
   height: 40px;
   overflow: hidden;
@@ -38,21 +38,21 @@
   border-radius: 20px;
   transition: all 0.3s;
 }
-.ant-back-top-content:hover {
+.b-back-top-content:hover {
   background-color: rgba(0, 0, 0, 0.85);
   transition: all 0.3s;
 }
-.ant-back-top-icon {
+.b-back-top-icon {
   font-size: 24px;
   line-height: 40px;
 }
 @media screen and (max-width: 768px) {
-  .ant-back-top {
+  .b-back-top {
     right: 60px;
   }
 }
 @media screen and (max-width: 480px) {
-  .ant-back-top {
+  .b-back-top {
     right: 20px;
   }
 }

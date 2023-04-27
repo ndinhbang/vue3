@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-avatar {
+.b-avatar {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -25,84 +25,84 @@
   line-height: 32px;
   border-radius: 50%;
 }
-.ant-avatar-image {
+.b-avatar-image {
   background: transparent;
 }
-.ant-avatar .ant-image-img {
+.b-avatar .b-image-img {
   display: block;
 }
-.ant-avatar-string {
+.b-avatar-string {
   position: absolute;
   left: 50%;
   transform-origin: 0 center;
 }
-.ant-avatar.ant-avatar-icon {
+.b-avatar.b-avatar-icon {
   font-size: 18px;
 }
-.ant-avatar.ant-avatar-icon > .anticon {
+.b-avatar.b-avatar-icon > .anticon {
   margin: 0;
 }
-.ant-avatar-lg {
+.b-avatar-lg {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
 }
-.ant-avatar-lg-string {
+.b-avatar-lg-string {
   position: absolute;
   left: 50%;
   transform-origin: 0 center;
 }
-.ant-avatar-lg.ant-avatar-icon {
+.b-avatar-lg.b-avatar-icon {
   font-size: 24px;
 }
-.ant-avatar-lg.ant-avatar-icon > .anticon {
+.b-avatar-lg.b-avatar-icon > .anticon {
   margin: 0;
 }
-.ant-avatar-sm {
+.b-avatar-sm {
   width: 24px;
   height: 24px;
   line-height: 24px;
   border-radius: 50%;
 }
-.ant-avatar-sm-string {
+.b-avatar-sm-string {
   position: absolute;
   left: 50%;
   transform-origin: 0 center;
 }
-.ant-avatar-sm.ant-avatar-icon {
+.b-avatar-sm.b-avatar-icon {
   font-size: 14px;
 }
-.ant-avatar-sm.ant-avatar-icon > .anticon {
+.b-avatar-sm.b-avatar-icon > .anticon {
   margin: 0;
 }
-.ant-avatar-square {
+.b-avatar-square {
   border-radius: 2px;
 }
-.ant-avatar > img {
+.b-avatar > img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.ant-avatar-group {
+.b-avatar-group {
   display: inline-flex;
 }
-.ant-avatar-group .ant-avatar {
+.b-avatar-group .b-avatar {
   border: 1px solid #fff;
 }
-.ant-avatar-group .ant-avatar:not(:first-child) {
+.b-avatar-group .b-avatar:not(:first-child) {
   margin-left: -8px;
 }
-.ant-avatar-group-popover .ant-avatar + .ant-avatar {
+.b-avatar-group-popover .b-avatar + .b-avatar {
   margin-left: 3px;
 }
-.ant-avatar-group-rtl .ant-avatar:not(:first-child) {
+.b-avatar-group-rtl .b-avatar:not(:first-child) {
   margin-right: -8px;
   margin-left: 0;
 }
-.ant-avatar-group-popover.ant-popover-rtl .ant-avatar + .ant-avatar {
+.b-avatar-group-popover.b-popover-rtl .b-avatar + .b-avatar {
   margin-right: 3px;
   margin-left: 0;
 }

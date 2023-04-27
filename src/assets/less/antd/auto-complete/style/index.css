@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-select-auto-complete {
+.b-select-auto-complete {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,6 +13,6 @@
   list-style: none;
   font-feature-settings: 'tnum';
 }
-.ant-select-auto-complete .ant-select-clear {
+.b-select-auto-complete .b-select-clear {
   right: 13px;
 }

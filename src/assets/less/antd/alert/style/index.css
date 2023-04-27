@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-alert {
+.b-alert {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,54 +19,54 @@
   word-wrap: break-word;
   border-radius: 2px;
 }
-.ant-alert-content {
+.b-alert-content {
   flex: 1;
   min-width: 0;
 }
-.ant-alert-icon {
+.b-alert-icon {
   margin-right: 8px;
 }
-.ant-alert-description {
+.b-alert-description {
   display: none;
   font-size: 14px;
   line-height: 22px;
 }
-.ant-alert-success {
+.b-alert-success {
   background-color: #f6ffed;
   border: 1px solid #b7eb8f;
 }
-.ant-alert-success .ant-alert-icon {
+.b-alert-success .b-alert-icon {
   color: #52c41a;
 }
-.ant-alert-info {
+.b-alert-info {
   background-color: #e6f7ff;
   border: 1px solid #91d5ff;
 }
-.ant-alert-info .ant-alert-icon {
+.b-alert-info .b-alert-icon {
   color: #1890ff;
 }
-.ant-alert-warning {
+.b-alert-warning {
   background-color: #fffbe6;
   border: 1px solid #ffe58f;
 }
-.ant-alert-warning .ant-alert-icon {
+.b-alert-warning .b-alert-icon {
   color: #faad14;
 }
-.ant-alert-error {
+.b-alert-error {
   background-color: #fff2f0;
   border: 1px solid #ffccc7;
 }
-.ant-alert-error .ant-alert-icon {
+.b-alert-error .b-alert-icon {
   color: #ff4d4f;
 }
-.ant-alert-error .ant-alert-description > pre {
+.b-alert-error .b-alert-description > pre {
   margin: 0;
   padding: 0;
 }
-.ant-alert-action {
+.b-alert-action {
   margin-left: 8px;
 }
-.ant-alert-close-icon {
+.b-alert-close-icon {
   margin-left: 8px;
   padding: 0;
   overflow: hidden;
@@ -77,80 +77,80 @@
   outline: none;
   cursor: pointer;
 }
-.ant-alert-close-icon .anticon-close {
+.b-alert-close-icon .anticon-close {
   color: rgba(0, 0, 0, 0.45);
   transition: color 0.3s;
 }
-.ant-alert-close-icon .anticon-close:hover {
+.b-alert-close-icon .anticon-close:hover {
   color: rgba(0, 0, 0, 0.75);
 }
-.ant-alert-close-text {
+.b-alert-close-text {
   color: rgba(0, 0, 0, 0.45);
   transition: color 0.3s;
 }
-.ant-alert-close-text:hover {
+.b-alert-close-text:hover {
   color: rgba(0, 0, 0, 0.75);
 }
-.ant-alert-with-description {
+.b-alert-with-description {
   align-items: flex-start;
   padding: 15px 15px 15px 24px;
 }
-.ant-alert-with-description.ant-alert-no-icon {
+.b-alert-with-description.b-alert-no-icon {
   padding: 15px 15px;
 }
-.ant-alert-with-description .ant-alert-icon {
+.b-alert-with-description .b-alert-icon {
   margin-right: 15px;
   font-size: 24px;
 }
-.ant-alert-with-description .ant-alert-message {
+.b-alert-with-description .b-alert-message {
   display: block;
   margin-bottom: 4px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 16px;
 }
-.ant-alert-message {
+.b-alert-message {
   color: rgba(0, 0, 0, 0.85);
 }
-.ant-alert-with-description .ant-alert-description {
+.b-alert-with-description .b-alert-description {
   display: block;
 }
-.ant-alert.ant-alert-motion-leave {
+.b-alert.b-alert-motion-leave {
   overflow: hidden;
   opacity: 1;
   transition: max-height 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), padding-top 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), padding-bottom 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), margin-bottom 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
-.ant-alert.ant-alert-motion-leave-active {
+.b-alert.b-alert-motion-leave-active {
   max-height: 0;
   margin-bottom: 0 !important;
   padding-top: 0;
   padding-bottom: 0;
   opacity: 0;
 }
-.ant-alert-banner {
+.b-alert-banner {
   margin-bottom: 0;
   border: 0;
   border-radius: 0;
 }
-.ant-alert.ant-alert-rtl {
+.b-alert.b-alert-rtl {
   direction: rtl;
 }
-.ant-alert-rtl .ant-alert-icon {
+.b-alert-rtl .b-alert-icon {
   margin-right: auto;
   margin-left: 8px;
 }
-.ant-alert-rtl .ant-alert-action {
+.b-alert-rtl .b-alert-action {
   margin-right: 8px;
   margin-left: auto;
 }
-.ant-alert-rtl .ant-alert-close-icon {
+.b-alert-rtl .b-alert-close-icon {
   margin-right: 8px;
   margin-left: auto;
 }
-.ant-alert-rtl.ant-alert-with-description {
+.b-alert-rtl.b-alert-with-description {
   padding-right: 24px;
   padding-left: 15px;
 }
-.ant-alert-rtl.ant-alert-with-description .ant-alert-icon {
+.b-alert-rtl.b-alert-with-description .b-alert-icon {
   margin-right: auto;
   margin-left: 15px;
 }

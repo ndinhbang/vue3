@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-anchor {
+.b-anchor {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,19 +15,19 @@
   position: relative;
   padding-left: 2px;
 }
-.ant-anchor-wrapper {
+.b-anchor-wrapper {
   margin-left: -4px;
   padding-left: 4px;
   overflow: auto;
   background-color: transparent;
 }
-.ant-anchor-ink {
+.b-anchor-ink {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
 }
-.ant-anchor-ink::before {
+.b-anchor-ink::before {
   position: relative;
   display: block;
   width: 2px;
@@ -36,7 +36,7 @@
   background-color: #f0f0f0;
   content: ' ';
 }
-.ant-anchor-ink-ball {
+.b-anchor-ink-ball {
   position: absolute;
   left: 50%;
   display: none;
@@ -48,17 +48,17 @@
   transform: translateX(-50%);
   transition: top 0.3s ease-in-out;
 }
-.ant-anchor-ink-ball.visible {
+.b-anchor-ink-ball.visible {
   display: inline-block;
 }
-.ant-anchor-fixed .ant-anchor-ink .ant-anchor-ink-ball {
+.b-anchor-fixed .b-anchor-ink .b-anchor-ink-ball {
   display: none;
 }
-.ant-anchor-link {
+.b-anchor-link {
   padding: 7px 0 7px 16px;
   line-height: 1.143;
 }
-.ant-anchor-link-title {
+.b-anchor-link-title {
   position: relative;
   display: block;
   margin-bottom: 6px;
@@ -68,34 +68,34 @@
   text-overflow: ellipsis;
   transition: all 0.3s;
 }
-.ant-anchor-link-title:only-child {
+.b-anchor-link-title:only-child {
   margin-bottom: 0;
 }
-.ant-anchor-link-active > .ant-anchor-link-title {
+.b-anchor-link-active > .b-anchor-link-title {
   color: #1890ff;
 }
-.ant-anchor-link .ant-anchor-link {
+.b-anchor-link .b-anchor-link {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.ant-anchor-rtl {
+.b-anchor-rtl {
   direction: rtl;
 }
-.ant-anchor-rtl.ant-anchor-wrapper {
+.b-anchor-rtl.b-anchor-wrapper {
   margin-right: -4px;
   margin-left: 0;
   padding-right: 4px;
   padding-left: 0;
 }
-.ant-anchor-rtl .ant-anchor-ink {
+.b-anchor-rtl .b-anchor-ink {
   right: 0;
   left: auto;
 }
-.ant-anchor-rtl .ant-anchor-ink-ball {
+.b-anchor-rtl .b-anchor-ink-ball {
   right: 50%;
   left: 0;
   transform: translateX(50%);
 }
-.ant-anchor-rtl .ant-anchor-link {
+.b-anchor-rtl .b-anchor-link {
   padding: 7px 16px 7px 0;
 }

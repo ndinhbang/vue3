@@ -2,185 +2,185 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-typography {
+.b-typography {
   color: rgba(0, 0, 0, 0.85);
   overflow-wrap: break-word;
 }
-.ant-typography.ant-typography-secondary {
+.b-typography.b-typography-secondary {
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-typography.ant-typography-success {
+.b-typography.b-typography-success {
   color: #52c41a;
 }
-.ant-typography.ant-typography-warning {
+.b-typography.b-typography-warning {
   color: #faad14;
 }
-.ant-typography.ant-typography-danger {
+.b-typography.b-typography-danger {
   color: #ff4d4f;
 }
-a.ant-typography.ant-typography-danger:active,
-a.ant-typography.ant-typography-danger:focus,
-a.ant-typography.ant-typography-danger:hover {
+a.b-typography.b-typography-danger:active,
+a.b-typography.b-typography-danger:focus,
+a.b-typography.b-typography-danger:hover {
   color: #ff7875;
 }
-.ant-typography.ant-typography-disabled {
+.b-typography.b-typography-disabled {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-div.ant-typography,
-.ant-typography p {
+div.b-typography,
+.b-typography p {
   margin-bottom: 1em;
 }
-h1.ant-typography,
-.ant-typography h1 {
+h1.b-typography,
+.b-typography h1 {
   margin-bottom: 0.5em;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   font-size: 38px;
   line-height: 1.23;
 }
-h2.ant-typography,
-.ant-typography h2 {
+h2.b-typography,
+.b-typography h2 {
   margin-bottom: 0.5em;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   font-size: 30px;
   line-height: 1.35;
 }
-h3.ant-typography,
-.ant-typography h3 {
+h3.b-typography,
+.b-typography h3 {
   margin-bottom: 0.5em;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   font-size: 24px;
   line-height: 1.35;
 }
-h4.ant-typography,
-.ant-typography h4 {
+h4.b-typography,
+.b-typography h4 {
   margin-bottom: 0.5em;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   font-size: 20px;
   line-height: 1.4;
 }
-h5.ant-typography,
-.ant-typography h5 {
+h5.b-typography,
+.b-typography h5 {
   margin-bottom: 0.5em;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
 }
-.ant-typography + h1.ant-typography,
-.ant-typography + h2.ant-typography,
-.ant-typography + h3.ant-typography,
-.ant-typography + h4.ant-typography,
-.ant-typography + h5.ant-typography {
+.b-typography + h1.b-typography,
+.b-typography + h2.b-typography,
+.b-typography + h3.b-typography,
+.b-typography + h4.b-typography,
+.b-typography + h5.b-typography {
   margin-top: 1.2em;
 }
-.ant-typography div + h1,
-.ant-typography ul + h1,
-.ant-typography li + h1,
-.ant-typography p + h1,
-.ant-typography h1 + h1,
-.ant-typography h2 + h1,
-.ant-typography h3 + h1,
-.ant-typography h4 + h1,
-.ant-typography h5 + h1,
-.ant-typography div + h2,
-.ant-typography ul + h2,
-.ant-typography li + h2,
-.ant-typography p + h2,
-.ant-typography h1 + h2,
-.ant-typography h2 + h2,
-.ant-typography h3 + h2,
-.ant-typography h4 + h2,
-.ant-typography h5 + h2,
-.ant-typography div + h3,
-.ant-typography ul + h3,
-.ant-typography li + h3,
-.ant-typography p + h3,
-.ant-typography h1 + h3,
-.ant-typography h2 + h3,
-.ant-typography h3 + h3,
-.ant-typography h4 + h3,
-.ant-typography h5 + h3,
-.ant-typography div + h4,
-.ant-typography ul + h4,
-.ant-typography li + h4,
-.ant-typography p + h4,
-.ant-typography h1 + h4,
-.ant-typography h2 + h4,
-.ant-typography h3 + h4,
-.ant-typography h4 + h4,
-.ant-typography h5 + h4,
-.ant-typography div + h5,
-.ant-typography ul + h5,
-.ant-typography li + h5,
-.ant-typography p + h5,
-.ant-typography h1 + h5,
-.ant-typography h2 + h5,
-.ant-typography h3 + h5,
-.ant-typography h4 + h5,
-.ant-typography h5 + h5 {
+.b-typography div + h1,
+.b-typography ul + h1,
+.b-typography li + h1,
+.b-typography p + h1,
+.b-typography h1 + h1,
+.b-typography h2 + h1,
+.b-typography h3 + h1,
+.b-typography h4 + h1,
+.b-typography h5 + h1,
+.b-typography div + h2,
+.b-typography ul + h2,
+.b-typography li + h2,
+.b-typography p + h2,
+.b-typography h1 + h2,
+.b-typography h2 + h2,
+.b-typography h3 + h2,
+.b-typography h4 + h2,
+.b-typography h5 + h2,
+.b-typography div + h3,
+.b-typography ul + h3,
+.b-typography li + h3,
+.b-typography p + h3,
+.b-typography h1 + h3,
+.b-typography h2 + h3,
+.b-typography h3 + h3,
+.b-typography h4 + h3,
+.b-typography h5 + h3,
+.b-typography div + h4,
+.b-typography ul + h4,
+.b-typography li + h4,
+.b-typography p + h4,
+.b-typography h1 + h4,
+.b-typography h2 + h4,
+.b-typography h3 + h4,
+.b-typography h4 + h4,
+.b-typography h5 + h4,
+.b-typography div + h5,
+.b-typography ul + h5,
+.b-typography li + h5,
+.b-typography p + h5,
+.b-typography h1 + h5,
+.b-typography h2 + h5,
+.b-typography h3 + h5,
+.b-typography h4 + h5,
+.b-typography h5 + h5 {
   margin-top: 1.2em;
 }
-a.ant-typography-ellipsis,
-span.ant-typography-ellipsis {
+a.b-typography-ellipsis,
+span.b-typography-ellipsis {
   display: inline-block;
   max-width: 100%;
 }
-a.ant-typography,
-.ant-typography a {
+a.b-typography,
+.b-typography a {
   color: #1890ff;
   outline: none;
   cursor: pointer;
   transition: color 0.3s;
   text-decoration: none;
 }
-a.ant-typography:focus,
-.ant-typography a:focus,
-a.ant-typography:hover,
-.ant-typography a:hover {
+a.b-typography:focus,
+.b-typography a:focus,
+a.b-typography:hover,
+.b-typography a:hover {
   color: #40a9ff;
 }
-a.ant-typography:active,
-.ant-typography a:active {
+a.b-typography:active,
+.b-typography a:active {
   color: #096dd9;
 }
-a.ant-typography:active,
-.ant-typography a:active,
-a.ant-typography:hover,
-.ant-typography a:hover {
+a.b-typography:active,
+.b-typography a:active,
+a.b-typography:hover,
+.b-typography a:hover {
   text-decoration: none;
 }
-a.ant-typography[disabled],
-.ant-typography a[disabled],
-a.ant-typography.ant-typography-disabled,
-.ant-typography a.ant-typography-disabled {
+a.b-typography[disabled],
+.b-typography a[disabled],
+a.b-typography.b-typography-disabled,
+.b-typography a.b-typography-disabled {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
 }
-a.ant-typography[disabled]:active,
-.ant-typography a[disabled]:active,
-a.ant-typography.ant-typography-disabled:active,
-.ant-typography a.ant-typography-disabled:active,
-a.ant-typography[disabled]:hover,
-.ant-typography a[disabled]:hover,
-a.ant-typography.ant-typography-disabled:hover,
-.ant-typography a.ant-typography-disabled:hover {
+a.b-typography[disabled]:active,
+.b-typography a[disabled]:active,
+a.b-typography.b-typography-disabled:active,
+.b-typography a.b-typography-disabled:active,
+a.b-typography[disabled]:hover,
+.b-typography a[disabled]:hover,
+a.b-typography.b-typography-disabled:hover,
+.b-typography a.b-typography-disabled:hover {
   color: rgba(0, 0, 0, 0.25);
 }
-a.ant-typography[disabled]:active,
-.ant-typography a[disabled]:active,
-a.ant-typography.ant-typography-disabled:active,
-.ant-typography a.ant-typography-disabled:active {
+a.b-typography[disabled]:active,
+.b-typography a[disabled]:active,
+a.b-typography.b-typography-disabled:active,
+.b-typography a.b-typography-disabled:active {
   pointer-events: none;
 }
-.ant-typography code {
+.b-typography code {
   margin: 0 0.2em;
   padding: 0.2em 0.4em 0.1em;
   font-size: 85%;
@@ -188,7 +188,7 @@ a.ant-typography.ant-typography-disabled:active,
   border: 1px solid rgba(100, 100, 100, 0.2);
   border-radius: 3px;
 }
-.ant-typography kbd {
+.b-typography kbd {
   margin: 0 0.2em;
   padding: 0.15em 0.4em 0.1em;
   font-size: 90%;
@@ -197,26 +197,26 @@ a.ant-typography.ant-typography-disabled:active,
   border-bottom-width: 2px;
   border-radius: 3px;
 }
-.ant-typography mark {
+.b-typography mark {
   padding: 0;
   background-color: #ffe58f;
 }
-.ant-typography u,
-.ant-typography ins {
+.b-typography u,
+.b-typography ins {
   text-decoration: underline;
   -webkit-text-decoration-skip: ink;
           text-decoration-skip-ink: auto;
 }
-.ant-typography s,
-.ant-typography del {
+.b-typography s,
+.b-typography del {
   text-decoration: line-through;
 }
-.ant-typography strong {
+.b-typography strong {
   font-weight: 600;
 }
-.ant-typography-expand,
-.ant-typography-edit,
-.ant-typography-copy {
+.b-typography-expand,
+.b-typography-edit,
+.b-typography-copy {
   color: #1890ff;
   text-decoration: none;
   outline: none;
@@ -224,67 +224,67 @@ a.ant-typography.ant-typography-disabled:active,
   transition: color 0.3s;
   margin-left: 4px;
 }
-.ant-typography-expand:focus,
-.ant-typography-edit:focus,
-.ant-typography-copy:focus,
-.ant-typography-expand:hover,
-.ant-typography-edit:hover,
-.ant-typography-copy:hover {
+.b-typography-expand:focus,
+.b-typography-edit:focus,
+.b-typography-copy:focus,
+.b-typography-expand:hover,
+.b-typography-edit:hover,
+.b-typography-copy:hover {
   color: #40a9ff;
 }
-.ant-typography-expand:active,
-.ant-typography-edit:active,
-.ant-typography-copy:active {
+.b-typography-expand:active,
+.b-typography-edit:active,
+.b-typography-copy:active {
   color: #096dd9;
 }
-.ant-typography-copy-success,
-.ant-typography-copy-success:hover,
-.ant-typography-copy-success:focus {
+.b-typography-copy-success,
+.b-typography-copy-success:hover,
+.b-typography-copy-success:focus {
   color: #52c41a;
 }
-.ant-typography-edit-content {
+.b-typography-edit-content {
   position: relative;
 }
-div.ant-typography-edit-content {
+div.b-typography-edit-content {
   left: -12px;
   margin-top: -5px;
   margin-bottom: calc(1em - 4px - 1px);
 }
-.ant-typography-edit-content-confirm {
+.b-typography-edit-content-confirm {
   position: absolute;
   right: 10px;
   bottom: 8px;
   color: rgba(0, 0, 0, 0.45);
   pointer-events: none;
 }
-.ant-typography-edit-content textarea {
+.b-typography-edit-content textarea {
   /* stylelint-disable-next-line property-no-vendor-prefix */
   -moz-transition: none;
 }
-.ant-typography ul,
-.ant-typography ol {
+.b-typography ul,
+.b-typography ol {
   margin: 0 0 1em;
   padding: 0;
 }
-.ant-typography ul li,
-.ant-typography ol li {
+.b-typography ul li,
+.b-typography ol li {
   margin: 0 0 0 20px;
   padding: 0 0 0 4px;
 }
-.ant-typography ul {
+.b-typography ul {
   list-style-type: circle;
 }
-.ant-typography ul ul {
+.b-typography ul ul {
   list-style-type: disc;
 }
-.ant-typography ol {
+.b-typography ol {
   list-style-type: decimal;
 }
-.ant-typography pre,
-.ant-typography blockquote {
+.b-typography pre,
+.b-typography blockquote {
   margin: 1em 0;
 }
-.ant-typography pre {
+.b-typography pre {
   padding: 0.4em 0.6em;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -292,7 +292,7 @@ div.ant-typography-edit-content {
   border: 1px solid rgba(100, 100, 100, 0.2);
   border-radius: 3px;
 }
-.ant-typography pre code {
+.b-typography pre code {
   display: inline;
   margin: 0;
   padding: 0;
@@ -301,23 +301,23 @@ div.ant-typography-edit-content {
   background: transparent;
   border: 0;
 }
-.ant-typography blockquote {
+.b-typography blockquote {
   padding: 0 0 0 0.6em;
   border-left: 4px solid rgba(100, 100, 100, 0.2);
   opacity: 0.85;
 }
-.ant-typography-single-line {
+.b-typography-single-line {
   white-space: nowrap;
 }
-.ant-typography-ellipsis-single-line {
+.b-typography-ellipsis-single-line {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-a.ant-typography-ellipsis-single-line,
-span.ant-typography-ellipsis-single-line {
+a.b-typography-ellipsis-single-line,
+span.b-typography-ellipsis-single-line {
   vertical-align: bottom;
 }
-.ant-typography-ellipsis-multiple-line {
+.b-typography-ellipsis-multiple-line {
   /* stylelint-disable-next-line value-no-vendor-prefix */
   display: -webkit-box;
   overflow: hidden;
@@ -325,28 +325,28 @@ span.ant-typography-ellipsis-single-line {
   /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical;
 }
-.ant-typography-rtl {
+.b-typography-rtl {
   direction: rtl;
 }
-.ant-typography-rtl .ant-typography-expand,
-.ant-typography-rtl .ant-typography-edit,
-.ant-typography-rtl .ant-typography-copy {
+.b-typography-rtl .b-typography-expand,
+.b-typography-rtl .b-typography-edit,
+.b-typography-rtl .b-typography-copy {
   margin-right: 4px;
   margin-left: 0;
 }
-.ant-typography-rtl .ant-typography-expand {
+.b-typography-rtl .b-typography-expand {
   float: left;
 }
-div.ant-typography-edit-content.ant-typography-rtl {
+div.b-typography-edit-content.b-typography-rtl {
   right: -12px;
   left: auto;
 }
-.ant-typography-rtl .ant-typography-edit-content-confirm {
+.b-typography-rtl .b-typography-edit-content-confirm {
   right: auto;
   left: 10px;
 }
-.ant-typography-rtl.ant-typography ul li,
-.ant-typography-rtl.ant-typography ol li {
+.b-typography-rtl.b-typography ul li,
+.b-typography-rtl.b-typography ol li {
   margin: 0 20px 0 0;
   padding: 0 4px 0 0;
 }

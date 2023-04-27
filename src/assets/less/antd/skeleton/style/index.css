@@ -2,16 +2,16 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-skeleton {
+.b-skeleton {
   display: table;
   width: 100%;
 }
-.ant-skeleton-header {
+.b-skeleton-header {
   display: table-cell;
   padding-right: 16px;
   vertical-align: top;
 }
-.ant-skeleton-header .ant-skeleton-avatar {
+.b-skeleton-header .b-skeleton-avatar {
   display: inline-block;
   vertical-align: top;
   background: rgba(190, 190, 190, 0.2);
@@ -19,103 +19,103 @@
   height: 32px;
   line-height: 32px;
 }
-.ant-skeleton-header .ant-skeleton-avatar.ant-skeleton-avatar-circle {
+.b-skeleton-header .b-skeleton-avatar.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-header .ant-skeleton-avatar-lg {
+.b-skeleton-header .b-skeleton-avatar-lg {
   width: 40px;
   height: 40px;
   line-height: 40px;
 }
-.ant-skeleton-header .ant-skeleton-avatar-lg.ant-skeleton-avatar-circle {
+.b-skeleton-header .b-skeleton-avatar-lg.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-header .ant-skeleton-avatar-sm {
+.b-skeleton-header .b-skeleton-avatar-sm {
   width: 24px;
   height: 24px;
   line-height: 24px;
 }
-.ant-skeleton-header .ant-skeleton-avatar-sm.ant-skeleton-avatar-circle {
+.b-skeleton-header .b-skeleton-avatar-sm.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-content {
+.b-skeleton-content {
   display: table-cell;
   width: 100%;
   vertical-align: top;
 }
-.ant-skeleton-content .ant-skeleton-title {
+.b-skeleton-content .b-skeleton-title {
   width: 100%;
   height: 16px;
   margin-top: 16px;
   background: rgba(190, 190, 190, 0.2);
   border-radius: 4px;
 }
-.ant-skeleton-content .ant-skeleton-title + .ant-skeleton-paragraph {
+.b-skeleton-content .b-skeleton-title + .b-skeleton-paragraph {
   margin-top: 24px;
 }
-.ant-skeleton-content .ant-skeleton-paragraph {
+.b-skeleton-content .b-skeleton-paragraph {
   padding: 0;
 }
-.ant-skeleton-content .ant-skeleton-paragraph > li {
+.b-skeleton-content .b-skeleton-paragraph > li {
   width: 100%;
   height: 16px;
   list-style: none;
   background: rgba(190, 190, 190, 0.2);
   border-radius: 4px;
 }
-.ant-skeleton-content .ant-skeleton-paragraph > li:last-child:not(:first-child):not(:nth-child(2)) {
+.b-skeleton-content .b-skeleton-paragraph > li:last-child:not(:first-child):not(:nth-child(2)) {
   width: 61%;
 }
-.ant-skeleton-content .ant-skeleton-paragraph > li + li {
+.b-skeleton-content .b-skeleton-paragraph > li + li {
   margin-top: 16px;
 }
-.ant-skeleton-with-avatar .ant-skeleton-content .ant-skeleton-title {
+.b-skeleton-with-avatar .b-skeleton-content .b-skeleton-title {
   margin-top: 12px;
 }
-.ant-skeleton-with-avatar .ant-skeleton-content .ant-skeleton-title + .ant-skeleton-paragraph {
+.b-skeleton-with-avatar .b-skeleton-content .b-skeleton-title + .b-skeleton-paragraph {
   margin-top: 28px;
 }
-.ant-skeleton-round .ant-skeleton-content .ant-skeleton-title,
-.ant-skeleton-round .ant-skeleton-content .ant-skeleton-paragraph > li {
+.b-skeleton-round .b-skeleton-content .b-skeleton-title,
+.b-skeleton-round .b-skeleton-content .b-skeleton-paragraph > li {
   border-radius: 100px;
 }
-.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-title,
-.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-paragraph > li {
+.b-skeleton.b-skeleton-active .b-skeleton-content .b-skeleton-title,
+.b-skeleton.b-skeleton-active .b-skeleton-content .b-skeleton-paragraph > li {
   background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
   background-size: 400% 100%;
   animation: ant-skeleton-loading 1.4s ease infinite;
 }
-.ant-skeleton.ant-skeleton-active .ant-skeleton-avatar {
+.b-skeleton.b-skeleton-active .b-skeleton-avatar {
   background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
   background-size: 400% 100%;
   animation: ant-skeleton-loading 1.4s ease infinite;
 }
-.ant-skeleton.ant-skeleton-active .ant-skeleton-button {
+.b-skeleton.b-skeleton-active .b-skeleton-button {
   background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
   background-size: 400% 100%;
   animation: ant-skeleton-loading 1.4s ease infinite;
 }
-.ant-skeleton.ant-skeleton-active .ant-skeleton-input {
+.b-skeleton.b-skeleton-active .b-skeleton-input {
   background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
   background-size: 400% 100%;
   animation: ant-skeleton-loading 1.4s ease infinite;
 }
-.ant-skeleton.ant-skeleton-active .ant-skeleton-image {
+.b-skeleton.b-skeleton-active .b-skeleton-image {
   background: linear-gradient(90deg, rgba(190, 190, 190, 0.2) 25%, rgba(129, 129, 129, 0.24) 37%, rgba(190, 190, 190, 0.2) 63%);
   background-size: 400% 100%;
   animation: ant-skeleton-loading 1.4s ease infinite;
 }
-.ant-skeleton.ant-skeleton-block {
+.b-skeleton.b-skeleton-block {
   width: 100%;
 }
-.ant-skeleton.ant-skeleton-block .ant-skeleton-button {
+.b-skeleton.b-skeleton-block .b-skeleton-button {
   width: 100%;
 }
-.ant-skeleton-element {
+.b-skeleton-element {
   display: inline-block;
   width: auto;
 }
-.ant-skeleton-element .ant-skeleton-button {
+.b-skeleton-element .b-skeleton-button {
   display: inline-block;
   vertical-align: top;
   background: rgba(190, 190, 190, 0.2);
@@ -125,43 +125,43 @@
   height: 32px;
   line-height: 32px;
 }
-.ant-skeleton-element .ant-skeleton-button.ant-skeleton-button-circle {
+.b-skeleton-element .b-skeleton-button.b-skeleton-button-circle {
   width: 32px;
   min-width: 32px;
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-button.ant-skeleton-button-round {
+.b-skeleton-element .b-skeleton-button.b-skeleton-button-round {
   border-radius: 32px;
 }
-.ant-skeleton-element .ant-skeleton-button-lg {
+.b-skeleton-element .b-skeleton-button-lg {
   width: 80px;
   min-width: 80px;
   height: 40px;
   line-height: 40px;
 }
-.ant-skeleton-element .ant-skeleton-button-lg.ant-skeleton-button-circle {
+.b-skeleton-element .b-skeleton-button-lg.b-skeleton-button-circle {
   width: 40px;
   min-width: 40px;
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-button-lg.ant-skeleton-button-round {
+.b-skeleton-element .b-skeleton-button-lg.b-skeleton-button-round {
   border-radius: 40px;
 }
-.ant-skeleton-element .ant-skeleton-button-sm {
+.b-skeleton-element .b-skeleton-button-sm {
   width: 48px;
   min-width: 48px;
   height: 24px;
   line-height: 24px;
 }
-.ant-skeleton-element .ant-skeleton-button-sm.ant-skeleton-button-circle {
+.b-skeleton-element .b-skeleton-button-sm.b-skeleton-button-circle {
   width: 24px;
   min-width: 24px;
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-button-sm.ant-skeleton-button-round {
+.b-skeleton-element .b-skeleton-button-sm.b-skeleton-button-round {
   border-radius: 24px;
 }
-.ant-skeleton-element .ant-skeleton-avatar {
+.b-skeleton-element .b-skeleton-avatar {
   display: inline-block;
   vertical-align: top;
   background: rgba(190, 190, 190, 0.2);
@@ -169,26 +169,26 @@
   height: 32px;
   line-height: 32px;
 }
-.ant-skeleton-element .ant-skeleton-avatar.ant-skeleton-avatar-circle {
+.b-skeleton-element .b-skeleton-avatar.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-avatar-lg {
+.b-skeleton-element .b-skeleton-avatar-lg {
   width: 40px;
   height: 40px;
   line-height: 40px;
 }
-.ant-skeleton-element .ant-skeleton-avatar-lg.ant-skeleton-avatar-circle {
+.b-skeleton-element .b-skeleton-avatar-lg.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-avatar-sm {
+.b-skeleton-element .b-skeleton-avatar-sm {
   width: 24px;
   height: 24px;
   line-height: 24px;
 }
-.ant-skeleton-element .ant-skeleton-avatar-sm.ant-skeleton-avatar-circle {
+.b-skeleton-element .b-skeleton-avatar-sm.b-skeleton-avatar-circle {
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-input {
+.b-skeleton-element .b-skeleton-input {
   display: inline-block;
   vertical-align: top;
   background: rgba(190, 190, 190, 0.2);
@@ -196,17 +196,17 @@
   height: 32px;
   line-height: 32px;
 }
-.ant-skeleton-element .ant-skeleton-input-lg {
+.b-skeleton-element .b-skeleton-input-lg {
   width: 100%;
   height: 40px;
   line-height: 40px;
 }
-.ant-skeleton-element .ant-skeleton-input-sm {
+.b-skeleton-element .b-skeleton-input-sm {
   width: 100%;
   height: 24px;
   line-height: 24px;
 }
-.ant-skeleton-element .ant-skeleton-image {
+.b-skeleton-element .b-skeleton-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -216,20 +216,20 @@
   height: 96px;
   line-height: 96px;
 }
-.ant-skeleton-element .ant-skeleton-image.ant-skeleton-image-circle {
+.b-skeleton-element .b-skeleton-image.b-skeleton-image-circle {
   border-radius: 50%;
 }
-.ant-skeleton-element .ant-skeleton-image-path {
+.b-skeleton-element .b-skeleton-image-path {
   fill: #bfbfbf;
 }
-.ant-skeleton-element .ant-skeleton-image-svg {
+.b-skeleton-element .b-skeleton-image-svg {
   width: 48px;
   height: 48px;
   line-height: 48px;
   max-width: 192px;
   max-height: 192px;
 }
-.ant-skeleton-element .ant-skeleton-image-svg.ant-skeleton-image-circle {
+.b-skeleton-element .b-skeleton-image-svg.b-skeleton-image-circle {
   border-radius: 50%;
 }
 @keyframes ant-skeleton-loading {
@@ -240,18 +240,18 @@
     background-position: 0 50%;
   }
 }
-.ant-skeleton-rtl {
+.b-skeleton-rtl {
   direction: rtl;
 }
-.ant-skeleton-rtl .ant-skeleton-header {
+.b-skeleton-rtl .b-skeleton-header {
   padding-right: 0;
   padding-left: 16px;
 }
-.ant-skeleton-rtl.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-title,
-.ant-skeleton-rtl.ant-skeleton.ant-skeleton-active .ant-skeleton-content .ant-skeleton-paragraph > li {
+.b-skeleton-rtl.b-skeleton.b-skeleton-active .b-skeleton-content .b-skeleton-title,
+.b-skeleton-rtl.b-skeleton.b-skeleton-active .b-skeleton-content .b-skeleton-paragraph > li {
   animation-name: ant-skeleton-loading-rtl;
 }
-.ant-skeleton-rtl.ant-skeleton.ant-skeleton-active .ant-skeleton-avatar {
+.b-skeleton-rtl.b-skeleton.b-skeleton-active .b-skeleton-avatar {
   animation-name: ant-skeleton-loading-rtl;
 }
 @keyframes ant-skeleton-loading-rtl {

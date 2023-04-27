@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-mentions {
+.b-mentions {
   box-sizing: border-box;
   margin: 0;
   font-variant: tabular-nums;
@@ -28,33 +28,33 @@
   white-space: pre-wrap;
   vertical-align: bottom;
 }
-.ant-mentions::-moz-placeholder {
+.b-mentions::-moz-placeholder {
   opacity: 1;
 }
-.ant-mentions::placeholder {
+.b-mentions::placeholder {
   color: #bfbfbf;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.ant-mentions:-moz-placeholder-shown {
+.b-mentions:-moz-placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions:placeholder-shown {
+.b-mentions:placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions:hover {
+.b-mentions:hover {
   border-color: #40a9ff;
   border-right-width: 1px !important;
 }
-.ant-mentions:focus,
-.ant-mentions-focused {
+.b-mentions:focus,
+.b-mentions-focused {
   border-color: #40a9ff;
   box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
   border-right-width: 1px !important;
   outline: 0;
 }
-.ant-mentions-disabled {
+.b-mentions-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   border-color: #d9d9d9;
@@ -62,11 +62,11 @@
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions-disabled:hover {
+.b-mentions-disabled:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions[disabled] {
+.b-mentions[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   border-color: #d9d9d9;
@@ -74,21 +74,21 @@
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions[disabled]:hover {
+.b-mentions[disabled]:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions-borderless,
-.ant-mentions-borderless:hover,
-.ant-mentions-borderless:focus,
-.ant-mentions-borderless-focused,
-.ant-mentions-borderless-disabled,
-.ant-mentions-borderless[disabled] {
+.b-mentions-borderless,
+.b-mentions-borderless:hover,
+.b-mentions-borderless:focus,
+.b-mentions-borderless-focused,
+.b-mentions-borderless-disabled,
+.b-mentions-borderless[disabled] {
   background-color: transparent;
   border: none;
   box-shadow: none;
 }
-textarea.ant-mentions {
+textarea.b-mentions {
   max-width: 100%;
   height: auto;
   min-height: 32px;
@@ -96,14 +96,14 @@ textarea.ant-mentions {
   vertical-align: bottom;
   transition: all 0.3s, height 0s;
 }
-.ant-mentions-lg {
+.b-mentions-lg {
   padding: 6.5px 11px;
   font-size: 16px;
 }
-.ant-mentions-sm {
+.b-mentions-sm {
   padding: 0px 7px;
 }
-.ant-mentions-disabled > textarea {
+.b-mentions-disabled > textarea {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   border-color: #d9d9d9;
@@ -111,18 +111,18 @@ textarea.ant-mentions {
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions-disabled > textarea:hover {
+.b-mentions-disabled > textarea:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions-focused {
+.b-mentions-focused {
   border-color: #40a9ff;
   box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
   border-right-width: 1px !important;
   outline: 0;
 }
-.ant-mentions > textarea,
-.ant-mentions-measure {
+.b-mentions > textarea,
+.b-mentions-measure {
   min-height: 30px;
   margin: 0;
   padding: 4px 11px;
@@ -150,29 +150,29 @@ textarea.ant-mentions {
     -o-tab-size: inherit;
        tab-size: inherit;
 }
-.ant-mentions > textarea {
+.b-mentions > textarea {
   width: 100%;
   border: none;
   outline: none;
   resize: none;
   /* stylelint-disable-next-line selector-no-vendor-prefix */
 }
-.ant-mentions > textarea::-moz-placeholder {
+.b-mentions > textarea::-moz-placeholder {
   opacity: 1;
 }
-.ant-mentions > textarea::placeholder {
+.b-mentions > textarea::placeholder {
   color: #bfbfbf;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-.ant-mentions > textarea:-moz-placeholder-shown {
+.b-mentions > textarea:-moz-placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions > textarea:placeholder-shown {
+.b-mentions > textarea:placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions-measure {
+.b-mentions-measure {
   position: absolute;
   top: 0;
   right: 0;
@@ -182,11 +182,11 @@ textarea.ant-mentions {
   color: transparent;
   pointer-events: none;
 }
-.ant-mentions-measure > span {
+.b-mentions-measure > span {
   display: inline-block;
   min-height: 1em;
 }
-.ant-mentions-dropdown {
+.b-mentions-dropdown {
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.85);
@@ -206,10 +206,10 @@ textarea.ant-mentions {
   outline: none;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
 }
-.ant-mentions-dropdown-hidden {
+.b-mentions-dropdown-hidden {
   display: none;
 }
-.ant-mentions-dropdown-menu {
+.b-mentions-dropdown-menu {
   max-height: 250px;
   margin-bottom: 0;
   padding-left: 0;
@@ -217,7 +217,7 @@ textarea.ant-mentions {
   list-style: none;
   outline: none;
 }
-.ant-mentions-dropdown-menu-item {
+.b-mentions-dropdown-menu-item {
   position: relative;
   display: block;
   min-width: 100px;
@@ -231,32 +231,32 @@ textarea.ant-mentions {
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.ant-mentions-dropdown-menu-item:hover {
+.b-mentions-dropdown-menu-item:hover {
   background-color: #f5f5f5;
 }
-.ant-mentions-dropdown-menu-item:first-child {
+.b-mentions-dropdown-menu-item:first-child {
   border-radius: 2px 2px 0 0;
 }
-.ant-mentions-dropdown-menu-item:last-child {
+.b-mentions-dropdown-menu-item:last-child {
   border-radius: 0 0 2px 2px;
 }
-.ant-mentions-dropdown-menu-item-disabled {
+.b-mentions-dropdown-menu-item-disabled {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
 }
-.ant-mentions-dropdown-menu-item-disabled:hover {
+.b-mentions-dropdown-menu-item-disabled:hover {
   color: rgba(0, 0, 0, 0.25);
   background-color: #fff;
   cursor: not-allowed;
 }
-.ant-mentions-dropdown-menu-item-selected {
+.b-mentions-dropdown-menu-item-selected {
   color: rgba(0, 0, 0, 0.85);
   font-weight: 600;
   background-color: #fafafa;
 }
-.ant-mentions-dropdown-menu-item-active {
+.b-mentions-dropdown-menu-item-active {
   background-color: #f5f5f5;
 }
-.ant-mentions-rtl {
+.b-mentions-rtl {
   direction: rtl;
 }
