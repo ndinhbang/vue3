@@ -13,11 +13,6 @@ export default defineConfig({
         preprocessorOptions: {
             less: {
                 javascriptEnabled: true,
-                modifyVars: {
-                    'ant-prefix': 'b',
-                    'animation-duration-slow': '0.1s',
-                    'animation-duration-base': '0.1s',
-                },
             },
         },
     },
