@@ -16,11 +16,20 @@
     "@ant-design/icons-vue": "^6.1.0",
     "@formily/antdv-x3": "1.0.0-alpha.5",
     "@formily/core": "^2.2.22",
+    "@formily/grid": "^2.2.22",
+    "@formily/json-schema": "^2.2.22",
+    "@formily/reactive": "^2.2.22",
+    "@formily/reactive-vue": "^2.2.22",
+    "@formily/shared": "^2.2.22",
     "@formily/vue": "^2.2.22",
     "ant-design-vue": "^3.2.19",
+    "dayjs": "^1.11.7",
+    "moment": "^2.29.4",
     "pinia": "^2.0.35",
+    "resize-observer-polyfill": "^1.5.1",
     "vue": "^3.2.47",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vue-slicksort": "^2.0.5"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

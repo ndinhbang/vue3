@@ -1,1 +1,1 @@
-export const stylePrefix = 'formily-antdv'
+export const stylePrefix = 'b'

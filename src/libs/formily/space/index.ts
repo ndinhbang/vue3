@@ -22,7 +22,7 @@ export const Space = defineComponent({
         size = layout.value?.spaceGap ?? 'small',
         direction = 'horizontal',
       } = props
-      const prefixCls = `ant-space`
+      const prefixCls = `b-space`
       const children = slots.default?.()
       let items = []
       if (Array.isArray(children)) {

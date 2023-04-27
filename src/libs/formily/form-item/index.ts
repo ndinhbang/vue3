@@ -479,7 +479,7 @@ export const FormBaseItem = defineComponent({
             [`${prefixCls}-inset-active`]: !!inset && active.value,
             [`${prefixCls}-label-align-${labelAlign}`]: true,
             [`${prefixCls}-control-align-${wrapperAlign}`]: true,
-            [`${prefixCls}-label-wrap`]: !!labelWrap,
+            [`${prefixCls}-label-wrap`]: labelWrap,
             [`${prefixCls}-control-wrap`]: !!wrapperWrap,
             [`${prefixCls}-bordered-none`]:
               bordered === false || !!inset || !!feedbackIcon,

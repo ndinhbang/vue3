@@ -3,7 +3,10 @@ import BasicLayout from '@/components/layout/Basic.vue'
 </script>
 
 <template>
-  <a-config-provider prefix-cls="b">
+  <a-config-provider
+      prefix-cls="b"
+      :autoInsertSpaceInButton="false"
+  >
     <BasicLayout />
   </a-config-provider>
 </template>
