@@ -11,7 +11,7 @@
 .app-sidebar-inner {
     height: 100vh;
 }
-.ant-layout-sider-has-trigger > .app-sidebar-inner {
+.b-layout-sider-has-trigger > .app-sidebar-inner {
     max-height: calc(100vh - 48px);
 }
 .logo {
@@ -23,20 +23,21 @@
     overflow-x: hidden ;
     overflow-y: auto;
 }
-.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title,
-.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title {
+.b-menu-inline > .b-menu-submenu > .b-menu-submenu-title,
+.b-menu-vertical > .b-menu-submenu > .b-menu-submenu-title {
     height: 48px;
     line-height: 48px;
 }
-.ant-menu-vertical .ant-menu-submenu-title,
-.ant-menu-inline .ant-menu-submenu-title,
-.ant-menu-inline .ant-menu-item,
-.ant-menu-inline .ant-menu-item:not(:last-child) {
-
+.b-menu-vertical .b-menu-submenu-title,
+.b-menu-inline .b-menu-submenu-title,
+.b-menu-inline .b-menu-item,
+.b-menu-inline .b-menu-item:not(:last-child),
+.b-menu-vertical .b-menu-item,
+.b-menu-vertical .b-menu-item:not(:last-child) {
     margin-top: 0;
     margin-bottom: 0;
 }
-.ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+.b-menu.b-menu-inline-collapsed > .b-menu-submenu > .b-menu-submenu-title .anticon {
     font-size: 20px;
     line-height: 48px;
 }
