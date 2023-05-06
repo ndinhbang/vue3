@@ -10,22 +10,23 @@ const rootSubmenuKeys = ref<string[]>(['sub1', 'sub2', 'sub3', 'sub4', 'sub5']);
 
 const onOpenChange = (opKeys: string[]) => {
   const latestOpenKey = opKeys.find(key => openKeys.value.indexOf(key) === -1);
-  if (rootSubmenuKeys.value.indexOf(latestOpenKey!) === -1) {
-    openKeys.value = opKeys;
-  } else {
-    openKeys.value = latestOpenKey ? [latestOpenKey] : [];
-  }
+    if (rootSubmenuKeys.value.indexOf(latestOpenKey!) === -1) {
+      openKeys.value = opKeys;
+    } else {
+      openKeys.value = latestOpenKey ? [latestOpenKey] : [];
+    }
 }
 </script>
 
 <template>
   <a-menu
-      v-model:selectedKeys="selectedKeys"
+      v-model:selected-keys="selectedKeys"
       mode="inline"
       theme="dark"
       class="app-sidebar-menu"
-      :subMenuCloseDelay="0.05"
+      :subMenuCloseDelay="0.0001"
       :subMenuOpenDelay="0"
+      :force-sub-menu-render="true"
       :open-keys="openKeys"
       @openChange="onOpenChange"
   >
