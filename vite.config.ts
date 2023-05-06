@@ -16,7 +16,10 @@ export default defineConfig({
             },
         },
     },
-    plugins: [vue(), sri({augmentManifest: true, hashAlgorithms: ['sha256']})],
+    plugins: [
+        vue(),
+        sri({augmentManifest: true, hashAlgorithms: ['sha256']})
+    ],
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
